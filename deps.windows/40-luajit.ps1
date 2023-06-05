@@ -6,7 +6,7 @@ param(
 )
 
 function Setup {
-    Setup-Dependency -Uri $Uri -Hash $Hash -DestinationPath $Path
+    Setup-Dependency -Uri $Uri -Branch v2.1 -Hash $Hash -DestinationPath $Path
 }
 
 function Build {
